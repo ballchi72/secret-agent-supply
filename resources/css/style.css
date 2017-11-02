@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -50,7 +51,7 @@ h4 {
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .headline {
@@ -77,6 +78,7 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
+  list-style: none;
 }
 
 .products {
@@ -150,6 +152,7 @@ footer span {
   .mobile-nav {
     display: block;
     text-align: center;
+    margin-top: 10rem;
   }
 
   .product {
@@ -193,8 +196,8 @@ footer span {
 
  .headline {
    width: 100%;
-   padding: 1rem 2rem;
    top: 10rem;
+   padding: 1rem 2rem;
  }
 
  .headline h1, h4 {
@@ -204,7 +207,7 @@ footer span {
  .headline h1 {
    font-size: 1rem;
    line-height: 1.2rem;
-   margin: 0.25rem 0;
+   margin: 0.25rem 0px;
  }
 
  .headline h4 {
@@ -235,4 +238,10 @@ footer span {
    width: 90%;
    margin: 0.5rem auto;
  }
+}
+
+@media only screen and (max-width: 320px) {
+  .headline {
+    top: 12rem;
+  }
 }
